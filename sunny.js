@@ -47,11 +47,16 @@
 
 // (
 //     function two(){
+// named iife
 //         console.log(`helllo`);
 //     }
 // )();
+// two is anmed iffe
+
+
 // (
     (name1)=>{
+        // simple iife or unnamed iffe wd parameter passed i.e name1
         console.log(`hello 2 , its ${name1}`);
     }
 )(`sanaiyla`);
@@ -64,4 +69,15 @@
     function(){
         console.log(`hhhhhhh`);
     }
-)()
+)();
+(
+    ()=>{
+        console.log(`helo sanaiyla bb`);
+    }
+)();
+(
+    (name1)=>{
+
+    console.log(`hello her name is ${name1}`);
+    }
+)(`kato`)
